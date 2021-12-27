@@ -3,10 +3,6 @@
   "version": "0.0.2",
   "description": "Cryptographic validation of Scuttlebutt messages.",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ssb-ngi-pointer/ssb-validate2-rsjs-node"
-  },
   "author": "Andrew Reid <glyph@mycelial.technology>",
   "license": "LGPL-3.0",
   "files": [
@@ -41,5 +37,16 @@
     "perf": "tape test/perf.js && tape test/multiAuthorPerf.js",
     "format-code": "prettier --write *.js test/*.js",
     "postversion": "git push && git push --tags && npm publish"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planetary-social/ssb-validate2-rsjs-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/planetary-social/ssb-validate2-rsjs-node/issues"
+  },
+  "homepage": "https://github.com/planetary-social/ssb-validate2-rsjs-node#readme"
 }
