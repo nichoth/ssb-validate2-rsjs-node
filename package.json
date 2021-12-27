@@ -1,5 +1,5 @@
 {
-  "name": "ssb-validate2-rsjs-node",
+  "name": "@planetary-ssb/ssb-validate2-rsjs-node",
   "version": "1.0.3",
   "description": "Cryptographic validation of Scuttlebutt messages.",
   "main": "index.js",
@@ -39,6 +39,7 @@
     "tag-prebuild": "detect-libc nj-tag-prebuild",
     "test": "tape test/test.js && tape test/multiAuthorTest.js",
     "perf": "tape test/perf.js && tape test/multiAuthorPerf.js",
-    "format-code": "prettier --write *.js test/*.js"
+    "format-code": "prettier --write *.js test/*.js",
+    "postversion": "git push && git push --tags && npm publish"
   }
 }
