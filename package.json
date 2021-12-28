@@ -1,6 +1,6 @@
 {
   "name": "@nichoth/ssb-validate2-rsjs-node",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Cryptographic validation of Scuttlebutt messages.",
   "main": "index.js",
   "author": "Andrew Reid <glyph@mycelial.technology>",
