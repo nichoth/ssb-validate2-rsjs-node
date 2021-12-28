@@ -1,5 +1,5 @@
 {
-  "name": "@planetary-ssb/ssb-validate2-rsjs-node",
+  "name": "@nichoth/ssb-validate2-rsjs-node",
   "version": "0.0.4",
   "description": "Cryptographic validation of Scuttlebutt messages.",
   "main": "index.js",
